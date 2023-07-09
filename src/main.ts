@@ -5,5 +5,5 @@ import { HttpClientModule } from '@angular/common/http';
 import { provideAnimations } from '@angular/platform-browser/animations';
 
 bootstrapApplication(AppComponent, {
-  providers: [importProvidersFrom(HttpClientModule), provideAnimations()],
+  providers: [importProvidersFrom(HttpClientModule), provideAnimations(), provideAnimations()],
 })
